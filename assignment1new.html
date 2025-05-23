@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .abc{
+        display: flex;
+        background-size: cover;
+        background-image: url("image1.avif");
+        justify-content: center;
+        align-items: center;
+        height: 700px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+    #main{
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px rgb(20, 4, 243);
+        padding: 40px;
+        
+
+    }
+    .heading{
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 10px;
+        color:aliceblue;
+        text-align: center;
+        
+    }
+    .first{
+        margin-bottom: 20px;
+    }
+    .inp{
+        width: 100% ;
+        border-color: rgb(10, 7, 224);
+        padding: 10px;
+        border-radius: 5px;
+
+
+    }
+    .label1{
+        color:white;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: italic;
+        display: block;
+        margin-bottom: 13px;
+    }
+    #inp2{
+        margin-left: 30px;
+        align-items: center;
+    }
+    #inp3{
+        margin-left: 5px;
+        color:white;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+
+
+
+    }
+    #btn{
+        cursor:pointer;
+        transition: ease-in;
+        width: 100%;
+        padding: 12px;  
+        background-color: rgb(36, 145, 247);
+        border-radius: 5px;
+        color:white;
+        font-weight: bold;
+        font-size: larger;
+        
+
+    }
+</style>
+<body class="abc">
+    <div class=" login-container " id="main" >
+        <div class="heading">
+            <h1>
+                Login
+            </h1>
+        </div>
+        <form>
+            <div class="first">
+                <label for="username" class="label1" > Username</label>
+                <input type="text" id="username" name="username" class="inp" required>
+            </div>
+            <div class="first">
+                <label for="password" class="label1" > Password</label>
+                <input type="password" id="Password" name="Password" class="inp" required>
+            </div>
+            <div class="first">
+                <label for="email" class="label1" > Email</label>
+                <input type="email" id="email" name="email" class="inp" >
+            </div>
+            <div class="first">
+                <label class="label1" > Gender</label>
+                <input type="radio"  name="gender" value="male" id="inp2" required>
+                <label id="inp3" > Male</label>
+            
+                <input type="radio"  name="gender" value="Female" id="inp2" >
+                <label id="inp3" > Female</label>
+                <input type="radio"  name="gender" value="other" id="inp2" >
+                <label id="inp3" > other</label>
+            </div>
+            <div>
+                <input  type="submit" id="btn">
+                    Login
+                >
+            </div>
+        </form>
+
+    
+
+    </div>
+    
+</body>
+</html>
