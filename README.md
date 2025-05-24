@@ -11,4 +11,4 @@ This is my first frontend project — a basic login form using HTML and CSS.
 
 ## 🎯 Learning Goal
 To understand form structure, styling, and visual layout with pure HTML and CSS.
-![Presentation Page Screenshot](Screenshot 2025-05-24 022936.png)
+![Presentation Page Screenshot](Screenshot.png)
